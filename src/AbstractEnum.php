@@ -17,6 +17,11 @@ use ReflectionClass;
  *
  * This class provides the foundational logic for creating type-safe, singleton-based
  * enums in PHP. Subclasses should define their enum constants as `protected const`.
+ *
+ * @method int ordinal()
+ * @method string name()
+ * @method mixed value()
+ * @method string label()
  */
 abstract class AbstractEnum implements JsonSerializable
 {
