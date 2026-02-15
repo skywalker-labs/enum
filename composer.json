@@ -1,15 +1,8 @@
 {
     "name": "skywalker-labs/enum",
     "description": "A robust and type-safe Enum implementation for PHP, featuring singleton-based constants, mapping capabilities, and extensive compatibility from PHP 7.0 to 9.0.",
+    "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Skywalker Labs Team",
-            "email": "skywalkerlknw@gmail.com",
-            "homepage": "https://skywalker-labs.com/",
-            "role": "Maintainer"
-        }
-    ],
     "keywords": [
         "enum",
         "map",
@@ -18,6 +11,31 @@
         "constants",
         "php-enum",
         "compatibility"
+    ],
+    "homepage": "https://github.com/skywalker-labs/enum",
+    "support": {
+        "issues": "https://github.com/skywalker-labs/enum/issues",
+        "source": "https://github.com/skywalker-labs/enum"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/ermradulsharma"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Skywalker Labs Team",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://skywalker-labs.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Mradul Sharma",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://mradulsharma.vercel.app/",
+            "role": "Lead Developer"
+        }
     ],
     "require": {
         "php": ">=7.0 <10.0"
@@ -39,5 +57,7 @@
     "scripts": {
         "test": "phpunit",
         "phpcs": "phpcs"
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
